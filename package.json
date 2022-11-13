@@ -1,5 +1,5 @@
 {
-  "name": "yarn-workspace-starter",
+  "name": "monorepo-with-yarn-workspace",
   "private": "true",
   "version": "1.0.0",
   "license": "MIT",
