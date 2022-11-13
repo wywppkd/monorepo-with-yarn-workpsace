@@ -6,6 +6,8 @@ yarn workspace package-a add package-b # 给 a 包安装开发依赖
 yarn workspaces run build # 执行每个 packages 的 script(yarn run build) 命令
 yarn workspace package-a run build # 执行每个 package-a 的 script(yarn run build) 命令
   # PS: 也可以切换到 package-a 目录, 然后执行 yarn run build
+
+yarn add father-build -W # 根目录下安装依赖包
 ```
 
 ## package-a 依赖 package-b

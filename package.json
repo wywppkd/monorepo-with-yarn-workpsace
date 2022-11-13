@@ -1,9 +1,12 @@
 {
   "name": "yarn-workspace-starter",
-  "private":"true",
+  "private": "true",
   "version": "1.0.0",
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "father-build": "^1.22.5"
+  }
 }
