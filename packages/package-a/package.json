@@ -2,5 +2,15 @@
   "name": "package-a",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn -v"
+  },
+  "dependencies": {
+    "package-b": "1.0.0",
+    "react": "17"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
